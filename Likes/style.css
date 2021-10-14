@@ -1,0 +1,98 @@
+* {
+    font-family: cursive;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*navbar start*/
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.network {
+    margin: 0 auto;
+    width: 840px;
+}
+
+/* column left with James Doe*/
+.yourfeed {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 840px;
+    height: 600px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    background: tomato;
+}
+
+.jamesdoe {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.profile_pic {
+    width: 75px;
+    height: 75px;
+}
+
+/* Right Column*/
+
+/*Neil Card*/
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    width: 450px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.like_btn {
+    width: 70px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: gold;
+    color: black;
+    box-shadow: 5px 5px black;
+    border: 4px black solid;
+}
+
+#count {
+    margin-left: 200px;
+}
+
+#count1 {
+    margin-left: 175px;
+}
+
+#count2 {
+    margin-left: 215px;
+}

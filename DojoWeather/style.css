@@ -1,0 +1,124 @@
+/*global settings */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+/*Nav Bar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    color: white;
+    height: 80px;
+    padding: 0px 20% 0px 20%;
+}
+
+.nav_heading {
+    color: white;
+}
+
+.cities {
+    display: flex;
+}
+
+.cities h3 {
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+}
+
+/* Body Wrapper*/
+
+.wrapper {
+
+    width: 60%;
+    height: 600px;
+    margin: 0px 20% 0px 20%;
+    background-color: white;
+}
+
+/* current city*/
+
+.c_city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    border-bottom: 2.5px solid black;
+}
+
+/*forecast*/
+
+.forecast {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.report {
+    background-color: rgb(204, 196, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+}
+
+.report img {
+    width: 120px;
+    height: 120px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 50%;
+}
+
+.temperature {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.temperature .left_temp {
+    color: red;
+}
+
+.temperature .right_temp {
+    color: royalblue;
+}
+
+/*cookie prompt*/
+
+.cookie_prompt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color: rgb(204, 196, 196);
+    outline: 2.5px black solid;
+    margin-top: 10px;
+    position: fixed; 
+    width: inherit;
+}
+
+.cookie_prompt img {
+    width: 75px;
+    height: 75px;
+}
+
+.cookie_prompt button {
+    width: 80px;
+    height: 30px;
+    background-color: lightblue;
+    color: black;
+    box-shadow: 5px 5px black;
+    border: 2px solid black ;
+}

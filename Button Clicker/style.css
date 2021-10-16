@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+/* overall container*/
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* navigation bar*/
+
+.navbar {
+    margin: 0px 30% 0px 30%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: grey;
+    padding: 0px 20px 0px 20px;
+}
+
+.dojonary {
+    font-weight: bolder;
+    font-size: 24pt;
+    background-color: grey;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav_search {
+    display: flex;
+    align-content: center;
+    width: 300px;
+    height: 40px;
+}
+
+.login_butt {
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    background-color: royalblue;
+    color: white;
+    box-shadow: 5px 2.5px black;
+    border: black solid;
+}
+
+/*Begin Body Wrap */
+
+.bodywrap {
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 40px;
+    width: 40%;
+    height: 800px;
+    display: flex;
+}
+
+.col1 {
+    width: 75%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+/*begin Ninja Block Top*/
+
+.ninja1 {
+    border: solid black 2.5px;
+    padding: 15px;
+    display: flex;
+    width: 90%;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ninja_type {
+    font-size: 24pt;
+    font-weight: bolder;
+}
+
+.likes {
+    margin-top: 15px;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 5px 2.5px black;
+    border: black solid;
+}
+
+.def {
+    padding: 40px;
+}
+
+/* begin ninja block bottom */
+
+.ninja2 {
+    border: solid black 2.5px;
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    width: 90%;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.ninja_type {
+    font-size: 24pt;
+    font-weight: bolder;
+}
+
+.likes {
+    margin-top: 15px;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 5px 2.5px black;
+    border: black solid;
+}
+
+.def {
+    padding: 40px;
+}
+
+/* Begin Dojonary is defined by you*/
+
+.right_box {
+    border: solid black 2.5px;
+    padding: 22px;
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 81%;
+    background-color: white;
+}
+
+.add_def {
+    margin-top: 15px;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    background-color: lightgreen;
+    color: black;
+    box-shadow: 5px 2.5px black;
+    border: black solid;
+}
+
+.you {
+    font-weight: bolder;
+}

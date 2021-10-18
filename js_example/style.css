@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive; 
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: royalblue;
+    color: blanchedalmond;
+    margin: 10% 20%;
+    border: solid 5px black;
+}
+
+button {
+    width: 70px;
+    height: 35px;
+}
+
+.titles {
+    color: coral;
+}
